@@ -3,19 +3,23 @@ buy and sell on pancakeswap
 
 you can buy and sell tokens on pancakeswap
 
-##Sell Token command
+First of all do not forget fill **config.py** file with your wallet number and private key.
+
+**listtoken.json** you can add pairs of token and its contract address
+
+## Sell Token command
 
 python sellpancake.py -t TokenShortName -a AmountToken
 
 python sellpancake.py -t alpaca -a 0.01
 
-##Buy Token Command
+## Buy Token Command
 
 python buypancake.py -t TokenShortName -a AmountBNB
 
 python buypancake.py -t alpaca -a 0.01
 
-##Send token from metamask wallet to another wallet
+## Send token from metamask wallet to another wallet
 
 python sendtoken.py -t TargetWalletAddress -a AmountToken -b TokenShortName
 
