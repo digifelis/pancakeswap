@@ -1,7 +1,8 @@
-# kendi metamask cüzdan adresimiz
-sender_address = '0x3f2f2Bf7F777610273d7Dcf94Abe0380338dC39f'
-#kendi metamask cüzdan private key
-private = "c1883e8da68bb64aae6694bedda2aae30e48bc25c54a033ad1175c78e6d58421"
+# own metamask wallet address
+sender_address = ''
+#own metamask wallet private key
+private = ""
+#do not change anything below
 #pancakeswap router
 panRouterContractAddress = '0x10ED43C718714eb63d5aA57B78B54704E256024E'
 wbnb = "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
